@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Baby-Sitter-App</string>
+
+    <string name="action_login">Login Baby-Sitter</string>
+    <string name="action_search">Search Baby-Sitter</string>
+    <string name="action_update">Update Customer</string>
+    <string name="action_records">Consult Records</string>
+    <string name="action_qualify_bs">Qualify Baby-Sitter</string>
+    <string name="action_qualify_c">Qualify Customer</string>
+    <string name="action_view_bs">View Baby-Sitter</string>
+    <string name="action_view_c">View Customer</string>
+
+
+    <!--- Login  -->
+    <string name="txt_email">E-Mail:</string>
+    <string name="h_email">e-mail@baby-sitter.com</string>
+    <string name="txt_password">Password:</string>
+    <string name="txt_sing_in">Sing In:</string>
+    <string name="txt_sing_up">Sing Up:</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+
+
+
+</resources>
