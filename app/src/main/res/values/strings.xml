@@ -13,10 +13,10 @@
 
     <!--- Login  -->
     <string name="txt_email">E-Mail:</string>
-    <string name="h_email">e-mail@baby-sitter.com</string>
+    <string name="h_email">correo@baby-sitter.com</string>
     <string name="txt_password">Password:</string>
-    <string name="txt_sing_in">Sing In:</string>
-    <string name="txt_sing_up">Sing Up:</string>
+    <string name="txt_sing_in">Ingresar:</string>
+    <string name="txt_sing_up">Salir:</string>
     <string name="title_activity_customer">CustomerActivity</string>
 
     <string name="hello_world">Hello world!</string>
