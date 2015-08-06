@@ -36,8 +36,12 @@ public class CustomerActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    public void qualifyBSonClick(View v){
 
+        Intent i = new Intent(this, QualifyBActivity.class);
+        i.putExtra("valorTest","Mari de los ángeles");
+        startActivity(i);
 
-
+    }
 
 }

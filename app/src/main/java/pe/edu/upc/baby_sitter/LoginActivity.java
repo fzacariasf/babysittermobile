@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void LoginOnClick(View v){
+    public void loginOnClick(View v){
 
         Intent i = new Intent(this,CustomerActivity.class);
         startActivity(i);

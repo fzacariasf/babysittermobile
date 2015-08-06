@@ -73,7 +73,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="@string/txt_sing_in"
-        android:id="@+id/button"
-        android:onClick="LoginOnClick" />
+        android:id="@+id/btn_Ingresar"
+        android:onClick="loginOnClick" />
 
 </LinearLayout>
