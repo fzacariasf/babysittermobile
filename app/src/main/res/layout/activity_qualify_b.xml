@@ -62,8 +62,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_qualify"
-            android:id="@+id/btn_saveQualify"
+            android:text="@string/btn_savequalify"
+            android:id="@+id/btn_save"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="59dp"
             android:layout_alignParentEnd="true"

@@ -1,25 +1,22 @@
 package pe.edu.upc.baby_sitter;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class CustomerActivity extends AppCompatActivity {
+public class BabySitterCVActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer);
+        setContentView(R.layout.activity_baby_sitter_cv);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_customer, menu);
+        getMenuInflater().inflate(R.menu.menu_baby_sitter_cv, menu);
         return true;
     }
 
@@ -36,19 +33,5 @@ public class CustomerActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-    public void qualifyBSonClick(View v){
-
-        Intent i = new Intent(this, QualifyBActivity.class);
-        i.putExtra("valorTest","Mari de los ángeles");
-        startActivity(i);
-
-    }
-    public void searchonClick(View v){
-
-        Intent i = new Intent(this,SearchActivity.class);
-        //i.putExtra("valorTest","Mari de los ángeles");
-        startActivity(i);
-
     }
 }

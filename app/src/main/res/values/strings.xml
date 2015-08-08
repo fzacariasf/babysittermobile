@@ -2,13 +2,17 @@
     <string name="app_name">Baby-Sitter-App</string>
 
     <string name="action_login">Login Baby-Sitter</string>
-    <string name="action_search">Search Baby-Sitter</string>
-    <string name="action_update">Update Customer</string>
-    <string name="action_records">Consult Records</string>
-    <string name="action_qualify_bs">Qualify Baby-Sitter</string>
-    <string name="action_qualify_c">Qualify Customer</string>
-    <string name="action_view_bs">View Baby-Sitter</string>
-    <string name="action_view_c">View Customer</string>
+    <string name="action_search">Buscar Baby-Sitter</string>
+    <string name="action_update">Actualizar Datos</string>
+    <string name="action_records">Consultar Registros</string>
+    <string name="action_qualify_bs">Calificar Baby-Sitter</string>
+    <string name="action_qualify_c">Calificar Clientes</string>
+    <string name="action_view_bs">Lista Baby-Sitter</string>
+    <string name="action_view_c">Lista Clientes</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_exit">Salir</string>
+    <string name="action_register">Registrarse</string>
+    <string name="action_back">Regresar</string>
 
 
     <!--- Login  -->
@@ -26,13 +30,20 @@
     <string name="title_activity_qualify_b">Qualify Baby-Sitters</string>
 
     <string name="txt_coment">Comentario</string>
-    <string name="btn_save">Calificar</string>
+    <string name="btn_savequalify">Calificar</string>
 
     <string name="txt_list">Lista Niñeras</string>
-    <string name="btn_approved">Aprobar</string>
-
-
-
-
+    <string name="btn_approved">Aprobar Pedido</string>
+    <string name="title_activity_consult_record">ConsultRecordActivity</string>
+    <string name="title_district">Aprobar Pedido</string>
+<string-array name="districts">
+    <item>Lima</item>
+    <item>San Isidro</item>
+    <item>Barranco</item>
+    <item>Miraflores</item>
+    <item>Surco</item>
+    <item>Lince</item>
+</string-array>
+    <string name="title_activity_baby_sitter_cv">BabySitterCVActivity</string>
 
 </resources>

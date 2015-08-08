@@ -5,12 +5,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+
+
+import java.util.ArrayList;
+
 public class SearchActivity extends AppCompatActivity {
+   // private ArrayList<Person> people;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+        //people = new ArrayList<>();
     }
 
     @Override
@@ -34,4 +40,6 @@ public class SearchActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
