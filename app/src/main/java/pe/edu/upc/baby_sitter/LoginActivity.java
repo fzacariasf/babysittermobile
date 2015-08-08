@@ -137,9 +137,9 @@ public class LoginActivity extends AppCompatActivity {
                         JSONObject result = response.getJSONObject(position);
                         String email = result.getString("email");
                         String password = result.getString("password");
-                        if(!email.isEmpty() && !password.isEmpty()) {
-                            System.out.println("---> email:" +  email);
-                            System.out.println("---> password:" +  password);
+                        if (!email.isEmpty() && !password.isEmpty()) {
+                            System.out.println("---> email:" + email);
+                            System.out.println("---> password:" + password);
                             if (email.equals(emailv) && password.equals(passwordv)) {
                                 System.out.println("---> Encontró usuario!");
                                 authenticated = true;
@@ -150,10 +150,10 @@ public class LoginActivity extends AppCompatActivity {
 
                     System.out.println("authenticated: " + authenticated);
 
-                    if(authenticated){
-                        Intent intent = new Intent(LoginActivity.this, CustomerActivity.class);
+                    if (authenticated) {
+                        Intent intent = new Intent(LoginActivity.this, BabySitterActivity.class);
                         startActivity(intent);
-                    }else{
+                    } else {
                         System.out.println("Babysitter doesn't exist!");
                     }
 
