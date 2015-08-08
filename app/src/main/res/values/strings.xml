@@ -45,5 +45,7 @@
     <item>Lince</item>
 </string-array>
     <string name="title_activity_baby_sitter_cv">BabySitterCVActivity</string>
+    <string name="title_activity_qualify_c">QualifyCActivity</string>
+    <string name="title_activity_baby_sitter">BabySitterActivity</string>
 
 </resources>

@@ -5,6 +5,28 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
 
 
 import java.util.ArrayList;
@@ -12,11 +34,19 @@ import java.util.ArrayList;
 public class SearchActivity extends AppCompatActivity {
    // private ArrayList<Person> people;
 
+    //private static ArrayList<Book> books = new ArrayList<>();
+    //private static String BOOKS_SEARCH_URL = "http://openlibrary.org/search.json?title=";
+//    private static String BOOKS_SEARCH_URL = "http://openlibrary.org/search.json?title=";
+//    private static String COVERS_SEARCH_URL = "http://covers.openlibrary.org/b/id/";
+//    EditText searchEditText;
+//    Button searchButton;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-        //people = new ArrayList<>();
+
     }
 
     @Override
