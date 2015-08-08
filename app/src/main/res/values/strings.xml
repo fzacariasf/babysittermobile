@@ -36,6 +36,9 @@
     <string name="btn_approved">Aprobar Pedido</string>
     <string name="title_activity_consult_record">ConsultRecordActivity</string>
     <string name="title_district">Aprobar Pedido</string>
+
+    <string name="txt_date">Fecha</string>
+
 <string-array name="districts">
     <item>Lima</item>
     <item>San Isidro</item>
