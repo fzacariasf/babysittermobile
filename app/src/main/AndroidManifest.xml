@@ -38,6 +38,14 @@
             android:name=".BabySitterCVActivity"
             android:label="@string/title_activity_baby_sitter_cv" >
         </activity>
+        <activity
+            android:name=".QualifyCActivity"
+            android:label="@string/title_activity_qualify_c" >
+        </activity>
+        <activity
+            android:name=".BabySitterActivity"
+            android:label="@string/title_activity_baby_sitter" >
+        </activity>
     </application>
 
 </manifest>
