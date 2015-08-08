@@ -97,11 +97,4 @@
         android:layout_marginRight="15dp"
         android:layout_marginBottom="2dp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Regresar"
-        android:id="@+id/button4"
-        android:layout_gravity="right" />
-
 </LinearLayout>
